@@ -6,6 +6,7 @@
 
 body {
     font-family: "roboto", sans-serif;
+    background-image: url(https://id.pinterest.com/pin/37576978136981889/);
 }
 
 p {
@@ -25,7 +26,7 @@ a {
 /* button */
 .btn {
     padding: 1rem 1.5rem;
-    background: rgb(56, 69, 56);
+    background: rgb(204, 51, 92);
     border: 1.5px solid rgb(3, 3, 3);
     cursor: pointer;
 }
@@ -34,12 +35,13 @@ a {
 .pre-title {
     text-transform: uppercase;
     letter-spacing: 0.5rem;
-    color: rgb(163, 174, 166);
+    color: rgb(175, 121, 135);
     position: relative;
     padding-left: 40px;
-    width: fit-content;
+    width: max-content;
     font-weight: 400;
     font: size 1rem;
+    ;
 }
 
 .pre-title::before {
@@ -55,9 +57,10 @@ a {
 /* logo dan navbar menu */
 .nav {
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
     padding: 2rem 0;
     transition: 0.2s ease-in-out;
+    background-color: palevioletred;
 }
 
 .nav ul {
@@ -75,11 +78,11 @@ a {
 }
 
 .logo a {
-    color: rgb(56, 69, 56);
+    color: rgb(62, 41, 51);
 }
 
 nav ul li a {
-    color: rgb(92, 108, 89);
+    color: rgb(59, 29, 43);
 }
 
 /* home section */
@@ -88,14 +91,14 @@ nav ul li a {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
-    background-color: rgb(255, 255, 255);
+    background-image: url(https://id.pinterest.com/pin/37576978136981889/);
 }
 
 .home-name {
     font-size: 3rem;
     font-weight: 700;
     margin: 0.5rem 0 1rem;
-    color: rgb(56, 69, 56);
+    color: rgb(184, 77, 111);
 }
 
 .home-right img {
@@ -169,7 +172,7 @@ section {
 
 /* About Section */
 #about {
-    background-color: rgb(175, 189, 179);
+    background-color: rgb(207, 106, 134);
     padding: 5rem 0;   
 }
 
@@ -196,7 +199,7 @@ section {
 .about {
     padding: 3rem 2rem;
     text-align: center;
-    background: black;
+    background: rgb(122, 55, 85);
     border-radius: 0.7rem;
 }
 
@@ -223,7 +226,7 @@ section {
 
 .skills {
     padding: 60px 15%;
-    background-color: #ffffff;
+    background-color:palevioletred;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -259,7 +262,7 @@ h2 {
 
 .progress {
     flex-grow: 1;
-    background-color: #e0e0e0;
+    background-color: #f6f1f3;
     height: 30px;
     position: relative;
     margin-right: 15px;
@@ -271,42 +274,23 @@ h2 {
     height: 100%;
     border-radius: 15px 0 0 15px;
     transition: width 0.4s ease;
+    ;
 }
 
 /* Warna untuk masing-masing skill dan sesuai persentase */
-.progress-bar.adobe-illustrator {
-    background-color: #a4bda4;
-    width: 85%;
+.progress-bar.sleep {
+    background-color: #e997b9f1;
+    width: 99%;
 }
 
-.progress-bar.adobe-after-effects {
-    background-color: #a4bda4;
-    width: 75%;
+.progress-bar.eat {
+    background-color: #f0aac7f1;
+    width: 93%;
 }
 
-.progress-bar.videography {
-    background-color: #a4bda4;
-    width: 80%;
-}
-
-.progress-bar.html {
-    background-color: #a4bda4;
-    width: 80%;
-}
-
-.progress-bar.figma {
-    background-color: #a4bda4;
-    width: 85%;
-}
-
-.progress-bar.communication {
-    background-color: #a4bda4;
-    width: 80%;
-}
-
-.progress-bar.creativity {
-    background-color: #a4bda4;
-    width: 85%;
+.progress-bar.playing {
+    background-color: #f0a4c4f1;
+    width: 82%;
 }
 
 h3 {
@@ -330,7 +314,8 @@ h3 {
 /*---- CONTACT----*/
 .contact {
     padding: 60px 15%; /* Sesuaikan padding horizontal di sini */
-    background-color: #cacdca91;
+    background-color:palevioletred
+
 }
 
 .section-heading {
@@ -362,7 +347,7 @@ textarea {
 
 button {
     padding: 10px 15px;
-    background-color: #568550;
+    background-color: #ba4278;
     color: #fcfbfb;
     border: none;
     border-radius: 4px;
@@ -370,15 +355,17 @@ button {
 }
 
 button:hover {
-    background-color: #909491;
+    background-color: #db7fb3;
 }
+
+.
 
 
 /* footer */
 footer {
     margin-bottom: 0;
     padding: 4rem 0;
-    background: rgb(130, 150, 136);
+    background: rgb(221, 82, 135);
     text-align: center; /* Meratakan teks di tengah */
 }
 

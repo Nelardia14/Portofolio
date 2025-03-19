@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Modern</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: "Roboto", sans-serif;
+            background-image: url(https://id.pinterest.com/pin/37576978136981889/);
+        }
+        .theme-toggle {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background: palevioletred;
+            padding: 10px;
+            border-radius: 50%;
+            cursor: pointer;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            color: white;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <button id="themeToggle" class="theme-toggle">🌙</button>
+    <nav class="p-4 shadow-md flex justify-between items-center" style="background-color: palevioletred;">
+        <h1 class="text-xl font-bold">MyWebsite</h1>
+    </nav>
+    
+    <header class="text-center py-16">
+        <h2 class="text-3xl font-semibold">Selamat Datang di Website Modern</h2>
+        <p>Desain simpel, elegan, dan responsif</p>
+    </header>
+    
+    <section class="p-8 grid md:grid-cols-3 gap-6">
+        <div class="p-6 shadow-lg rounded-lg" style="background-color: palevioletred;">Card 1</div>
+        <div class="p-6 shadow-lg rounded-lg" style="background-color: palevioletred;">Card 2</div>
+        <div class="p-6 shadow-lg rounded-lg" style="background-color: palevioletred;">Card 3</div>
+    </section>
+    
+    <section class="center"
+        <h2 class="text-2xl font-bold">Quote of the Day</h2>
+        <p id="quote" class="italic mt-2">"Loading..."</p>
+    </section>
+    
+    <script>
+        const quotes = [
+            "Hidup adalah perjalanan, nikmati setiap langkahnya.",
+            "Kesuksesan datang dari usaha dan ketekunan.",
+            "Jangan takut gagal, karena kegagalan adalah awal dari kesuksesan.",
+            "Setiap hari adalah kesempatan baru untuk belajar.",
+            "Lakukan yang terbaik, hasil akan mengikuti."
+        ];
+        document.getElementById("quote").innerText = quotes[Math.floor(Math.random() * quotes.length)];
+    </script>
+</body>
+</html>
